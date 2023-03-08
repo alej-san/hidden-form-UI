@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./GameUI/BG.png);
+}
+div{
+   background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center center;
+}
+progress{
+  margin-left: 20%;
+  
+  margin-right: 10%;
+  width: 60%;
+}
+#base{
+  margin-left: 10%;
+  width: 80%;
+  height: 100%;
+}
+#minus, #plus{
+  
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+  line-height: 80px;
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+#plus{
+  background-image: url(./GameUI/plusIcon.png);
+ 
+}
+#minus{
+  background-image: url(./GameUI/rect.png);
+ 
+}
+.size1, .size2, .size3{
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  background-color:chocolate;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.size1{
+  background-image: url(./GameUI/giftIcon.png);
+  height: 50px;
+  width: 50px;
+}
+.size2{
+  background-image: url(./GameUI/coinIcon.png);
+  height: 100px;
+  width: 100px;
+}
+.size3{
+  background-image: url(./GameUI/starIcon.png);
+  height: 200px;
+  width: 200px;
+}
+.selectedItem{
+  
+  height: 50px;
+  width: 50px;
+}
+.progress{
+  width: 100%;
+  background-image: url(./GameUI/yellowRectNormal.png);
+  background-size: contain;
+  margin-bottom: 10%;
+}
+.checked{
+
+  background-image: url(./GameUI/toggleOn.png);
+  height: 50px;
+  width: 50px;
+  
+  margin-left: 10%;
+}
+.unchecked{
+
+  background-image: url(./GameUI/toggleOff.png);
+  
+}
+.selectors{
+  background-image: url(./GameUI/pinkBtnNormal.png);
+  background-size: cover;
+}
